@@ -36,6 +36,9 @@ Mindre repoer kan samle dette i `README.md`.
 - Ingen omtale av tidligere løsninger eller leverandører som ikke lenger er i bruk.
 - Stier, kommandoer, filnavn og verdier i `kode`.
 - Korte avsnitt og tabeller. Én ting beskrives ett sted, og andre steder lenker dit.
+- Diagrammer skrives i Mermaid (` ```mermaid `), som GitHub viser direkte. Bruk `flowchart` for dataflyt og
+  `sequenceDiagram` for forløp. Etiketter på organisasjonens språk, node-id på engelsk. Under hvert diagram står en
+  kort tekst som sier det samme, for steder der Mermaid ikke vises.
 
 ## Automatisk kontroll
 
