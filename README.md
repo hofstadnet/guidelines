@@ -11,7 +11,7 @@ uten navn på bestemte organisasjoner, domener eller tjenester, slik at de kan b
 | [web-security.md](web-security.md) | Sikkerhetshoder, CSP, Trusted Types og serverløse endepunkter |
 | [infrastructure.md](infrastructure.md) | Infrastruktur som kode med OpenTofu, med Cloudflare som eksempel |
 | [accessibility-ux.md](accessibility-ux.md) | Tilgjengelighet, visning, ytelse og visuelle tester |
-| [agents.md](agents.md) | Oppsett for kodeagenter: `AGENTS.md`, `CLAUDE.md` og lokale retningslinjer |
+| [coding-agents.md](coding-agents.md) | Oppsett for kodeagenter: `AGENTS.md`, `CLAUDE.md` og lokale retningslinjer |
 
 ## Ta i bruk i et repo
 
