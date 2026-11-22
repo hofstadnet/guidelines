@@ -6,6 +6,8 @@ uten navn på bestemte organisasjoner, domener eller tjenester, slik at de kan b
 | Retningslinje | Gjelder |
 |---|---|
 | [naming.md](naming.md) | Navn på filer, mapper, kode, arbeidsflyter, tokens og ressurser |
+| [architecture.md](architecture.md) | Prinsipper, beskrivelse og gjennomgang av arkitekturen |
+| [testing.md](testing.md) | Testlag, regler og gjennomgang av tester |
 | [documentation.md](documentation.md) | Hvordan dokumentasjon skrives og holdes oppdatert |
 | [github-security.md](github-security.md) | Regelsett, GitHub Actions, avhengigheter og hemmeligheter |
 | [web-security.md](web-security.md) | Sikkerhetshoder, CSP, Trusted Types og serverløse endepunkter |
