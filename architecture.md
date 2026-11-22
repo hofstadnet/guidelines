@@ -24,7 +24,7 @@ Hvert repo har `docs/architecture.md` med:
 | Del | Innhold |
 |---|---|
 | Oversikt | Tabell med område, valg og begrunnelse |
-| Dataflyt | Enkel figur som tekst: hvem snakker med hvem, og hva som går hvor |
+| Dataflyt | Diagram i Mermaid (`flowchart`): hvem snakker med hvem, og hva som går hvor. Ett diagram for trafikk og ett for endringer (PR, CI, publisering). |
 | Komponenter | Hver del med ansvar, adresser og tilganger |
 | Beslutninger | Viktige valg med alternativer som ble vurdert, og hvorfor de ble valgt bort |
 
