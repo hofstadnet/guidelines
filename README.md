@@ -11,6 +11,7 @@ uten navn på bestemte organisasjoner, domener eller tjenester, slik at de kan b
 | [documentation.md](documentation.md) | Hvordan dokumentasjon skrives og holdes oppdatert |
 | [github-security.md](github-security.md) | Tilganger, regelsett, GitHub Actions, avhengigheter og hemmeligheter |
 | [web-security.md](web-security.md) | Sikkerhetshoder, CSP, Trusted Types, endepunkter, skjemaer og domener |
+| [operations.md](operations.md) | Drift som kode: innstillinger, ukentlig kontroll, sertifikater, utløpsdatoer og gjenoppbygging |
 | [infrastructure.md](infrastructure.md) | Infrastruktur som kode med OpenTofu, med Cloudflare som eksempel |
 | [accessibility-ux.md](accessibility-ux.md) | Tilgjengelighet, visning, ytelse og visuelle tester |
 | [coding-agents.md](coding-agents.md) | Oppsett for kodeagenter: `AGENTS.md`, `CLAUDE.md` og lokale retningslinjer |
@@ -21,12 +22,16 @@ uten navn på bestemte organisasjoner, domener eller tjenester, slik at de kan b
 2. Legg til `CLAUDE.md` med én linje: `@AGENTS.md`.
 3. Legg regler som bare gjelder repoet, i `docs/guidelines/` i repoet. Lenk til retningslinjene her for resten, i
    stedet for å kopiere dem.
-4. Følg [github-security.md](github-security.md) for regelsett og arbeidsflyter.
+4. Følg [github-security.md](github-security.md) for tilganger, regelsett og arbeidsflyter.
+
+Nye repoer lages fra organisasjonens mal (et template-repo som følger retningslinjene) av en eier.
 
 ## Prinsipper
 
 - **Uavhengig av verktøy.** Retningslinjene er vanlig Markdown. Verktøyspesifikke filer er bare tynne pekere hit.
 - **Generelt her, spesielt lokalt.** Det som gjelder ett repo (stier, domener, tjenester), står i repoet.
+- **Avvik står i repoet.** Et repo som med vilje ikke følger en regel, beskriver avviket og grunnen i sin egen
+  dokumentasjon. Passer en regel dårlig for flere repoer, endres regelen her.
 - **Kontrollerbart.** Der det går, håndheves reglene av regelsett, arbeidsflyter eller tester, ikke bare av tekst.
 
 ## Endringer
