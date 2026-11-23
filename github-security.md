@@ -42,7 +42,9 @@
 - [ ] Installasjon fra låsefil uten installasjonsskript (for npm: `npm ci --ignore-scripts`).
 - [ ] Signaturkontroll av pakkene i bygget (for npm: `npm audit signatures`).
 - [ ] Dependabot én gang i måneden, gruppert per økosystem, med `cooldown` på minst 7 dager for patch og minor og
-      30 dager for major (`semver-major-days: 30`). En versjon foreslås dermed først når den har vært ute så lenge.
+      30 dager for major (`semver-major-days: 30`) der økosystemet støtter det. En versjon foreslås dermed først når den
+      har vært ute så lenge. Dependabot støtter ikke `semver-major-days` for blant annet `github-actions` og `opentofu`,
+      og avviser hele filen hvis nøkkelen står der.
 - [ ] Signaturkontroller som ikke kan kjøres (for eksempel for pakker installert under et alias), er beskrevet i
       repoet med grunnen.
 
