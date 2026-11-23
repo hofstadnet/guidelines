@@ -1,12 +1,15 @@
 # Drift som kode
 
 For organisasjoner med flere repoer: innstillingene i GitHub, kontrollene av dem, sertifikatene, utløpsdatoene og
-oppskriften for å bygge alt opp på nytt ligger i ett privat driftsrepo (for eksempel `operations`).
+oppskriften for å bygge alt opp på nytt ligger i ett driftsrepo (for eksempel `operations`).
 
 ## Driftsrepoet
 
-- [ ] Repoet er privat, fordi navn på tokens, utløpsdatoer og oppsettet ikke trenger å være offentlige.
-- [ ] Ingen hemmeligheter, selv om repoet er privat: ingen passord, tokens, nøkler eller personopplysninger. Det som
+- [ ] Repoet er privat når planen gir regelsett og miljøer med hemmeligheter for private repoer (for eksempel GitHub
+      Team), fordi navn på tokens, utløpsdatoer og oppsettet ikke trenger å være offentlige. På planer der private
+      repoer mangler dette, er repoet offentlig, så kontrollen er beskyttet av regelsett og miljø. Valget og at sakene
+      fra kontrollen da er offentlige, står som en beslutning i repoet.
+- [ ] Ingen hemmeligheter, uansett synlighet: ingen passord, tokens, nøkler eller personopplysninger. Det som
       utløper eller er hemmelig, står bare med navn.
 - [ ] README-en har en tabell over filene og arbeidsflytene, og hva hver av dem gjør.
 - [ ] Avvik fra malen er beskrevet i README-en. Et privat repo uten GitHub Advanced Security kan ikke bruke CodeQL,
