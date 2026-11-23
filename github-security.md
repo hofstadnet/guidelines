@@ -24,6 +24,8 @@
 - [ ] Unntak fra regelsettet gis bare til apper, ikke til personer, og bare når appen ikke kan bruke pull requests
       (for eksempel et innholdsverktøy (CMS) som committer rett til `main`, eller en robot som må pushe). Unntaket og
       grunnen er beskrevet i repoet, med hvilke mapper appen skriver til.
+- [ ] Eiere (rollen admin) kan omgå kravene bare gjennom en pull request (`bypass_mode: pull_request`), aldri med
+      direkte push. Det trengs for å kunne rette en påkrevd sjekk som selv er ødelagt, og brukes bare da.
 
 ## Arbeidsflyter
 
