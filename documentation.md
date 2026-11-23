@@ -7,7 +7,7 @@ Dokumentasjonen beskriver hvordan ting er. Den oppdateres i samme pull request s
 | Fil | Innhold |
 |---|---|
 | `README.md` | Hva repoet er, kom i gang, kommandoer, mappestruktur og lenker videre |
-| `AGENTS.md` | Instruksjoner for kodeagenter (se [agents.md](agents.md)) |
+| `AGENTS.md` | Instruksjoner for kodeagenter (se [coding-agents.md](coding-agents.md)) |
 | `SECURITY.md` | Rapportering av sårbarheter, på engelsk |
 | `docs/architecture.md` | Komponenter, dataflyt og beslutninger (se [architecture.md](architecture.md)) |
 | `docs/decisions/` | Beslutningsnotater, når det trengs |
