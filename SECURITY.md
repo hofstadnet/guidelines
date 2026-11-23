@@ -17,7 +17,8 @@ can, but this is a volunteer club project.
   (`dependabot-automerge.yml`). Other updates are merged by hand.
 - Workflows get read-only access by default; jobs ask for more only when they need it. `persist-credentials: false`
   on every checkout.
-- Secrets live in GitHub environments limited to `main`, never in the code. `.gitignore` blocks `.env` and key files.
+- This repository holds no secrets. Repositories that need secrets keep them as GitHub secrets, never in the code;
+  tokens that can change production live in environments limited to `main`. `.gitignore` blocks `.env` and key files.
 - Secret scanning with push protection, Dependabot alerts and security updates are on.
 
 <!-- Beskriv det som er spesielt for dette repoet: hva som publiseres, hvor, med hvilke nøkler. -->
