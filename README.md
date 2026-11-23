@@ -10,7 +10,7 @@ uten navn på bestemte organisasjoner, domener eller tjenester, slik at de kan b
 | [testing.md](testing.md) | Testlag, regler og gjennomgang av tester |
 | [documentation.md](documentation.md) | Hvordan dokumentasjon skrives og holdes oppdatert |
 | [github-security.md](github-security.md) | Tilganger, regelsett, GitHub Actions, avhengigheter og hemmeligheter |
-| [web-security.md](web-security.md) | Sikkerhetshoder, CSP, Trusted Types og serverløse endepunkter |
+| [web-security.md](web-security.md) | Sikkerhetshoder, CSP, Trusted Types, endepunkter, skjemaer og domener |
 | [infrastructure.md](infrastructure.md) | Infrastruktur som kode med OpenTofu, med Cloudflare som eksempel |
 | [accessibility-ux.md](accessibility-ux.md) | Tilgjengelighet, visning, ytelse og visuelle tester |
 | [coding-agents.md](coding-agents.md) | Oppsett for kodeagenter: `AGENTS.md`, `CLAUDE.md` og lokale retningslinjer |
