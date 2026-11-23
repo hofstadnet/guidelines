@@ -31,5 +31,8 @@ uten navn på bestemte organisasjoner, domener eller tjenester, slik at de kan b
 
 ## Endringer
 
+Lenkesjekken (`.github/workflows/link-check.yml`) stopper pull requests med brutte lenker eller ankere mellom
+retningslinjene. Eksterne lenker sjekkes hver mandag.
+
 Endringer går via pull request. Repoer som lenker hit, følger alltid siste versjon på `main`. En endring som krever
 tiltak i repoene, beskrives i pull requesten.
