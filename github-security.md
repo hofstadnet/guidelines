@@ -18,6 +18,7 @@
 ## Regelsett for `main`
 
 - [ ] Endringer krever pull request. Force-push og sletting er blokkert.
+- [ ] Commits på `main` må være signerte (`required_signatures`). Merge og squash på GitHub signeres av GitHub.
 - [ ] Påkrevde sjekker: bygg eller test, `dependency-review` og `workflow-security` (zizmor).
 - [ ] CodeQL-funn med høy alvorlighet eller mer stopper merge.
 - [ ] Når en påkrevd jobb får nytt navn, oppdateres regelsettet i samme operasjon som merge.
