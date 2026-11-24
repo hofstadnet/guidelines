@@ -26,6 +26,19 @@ uten navn på bestemte organisasjoner, domener eller tjenester, slik at de kan b
 
 Nye repoer lages fra organisasjonens mal (et template-repo som følger retningslinjene) av en eier.
 
+## Grunnlaget
+
+Retningslinjene er en praktisk utgave av kjente fremgangsmåter, ikke regler fra én organisasjon eller ett prosjekt:
+
+| Fremgangsmåte | Hva det betyr her | Retningslinjer |
+|---|---|---|
+| Infrastruktur som kode (IaC) | DNS, soneinnstillinger og regler står som kode, og endres bare der | [infrastructure.md](infrastructure.md) |
+| GitOps | Git er fasiten. Alt endres via pull request med grønne sjekker, og avvik fra koden meldes | [github-security.md](github-security.md), [operations.md](operations.md) |
+| DevSecOps | Sikkerhet er en del av hver endring: låste avhengigheter, minste tilgang, kodeskanning og strenge hoder | [github-security.md](github-security.md), [web-security.md](web-security.md) |
+| Policy som kode | Regelsett, påkrevde sjekker og en jevnlig kontroll håndhever reglene | [github-security.md](github-security.md), [operations.md](operations.md) |
+| Dokumentasjon som kode | Dokumentasjonen ligger i repoet, oppdateres i samme pull request og kontrolleres | [documentation.md](documentation.md) |
+| Testing og tilgjengelighet fra start | Tester, ytelsesbudsjett og tilgjengelighet sjekkes før merge | [testing.md](testing.md), [accessibility-ux.md](accessibility-ux.md) |
+
 ## Prinsipper
 
 - **Uavhengig av verktøy.** Retningslinjene er vanlig Markdown. Verktøyspesifikke filer er bare tynne pekere hit.
