@@ -97,5 +97,8 @@ Endringer gjøres slik:
       hemmeligheter, navnetjenere og DS-poster hos registraren.
 - [ ] Hemmelighetene står i en tabell med repo, hvor de ligger (repo, miljø eller Dependabot), navn og kilde, aldri
       verdier.
+- [ ] Det som ikke kan lages på nytt (for eksempel passfrasen som krypterer state), lagres i en passordbehandler.
+      Tokens og app-nøkler lagres ikke andre steder enn der de brukes: trengs en verdi på nytt, rulles tokenet, eller
+      det lages en ny nøkkel. Dokumentet sier hvordan for hver av dem.
 - [ ] Dokumentet slutter med en kontroll: planen for innstillingene er tom, kontrollene går grønt, tjenestene svarer, og
       nye utløpsdatoer står i fila.
